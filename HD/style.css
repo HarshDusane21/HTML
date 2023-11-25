@@ -1,0 +1,52 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url('penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.image
+{
+    height: 60px;
+    width: 60px;
+}
+.image img
+{
+    height: 100px;
+    width:100px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 20%;
+    top:25%;
+}
+button
+{
+    height: 60px;
+    width:60px;
+    border: 2px solid white;
+    background-color:red;
+    color:blue;
+    position: absolute;
+    left: 30%;
+    top:55%;
+    border-radius: 5px          ;
+}
+button:hover
+{
+    background-color: black;
+}
+a
+{
+    text-decoration: none;
+}
+marquee
+{
+   position: absolute;
+   margin-top: 50%;
+}
