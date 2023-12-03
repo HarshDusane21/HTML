@@ -1,0 +1,31 @@
+body
+{
+    border: 2px solid black;
+    align:center;
+    margin-top: 15%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 15%;
+    padding-top: 15%;
+    padding-right: 15%;
+    padding-bottom: 15%;
+    background:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAy8qNohMqVTYOkQ3wlzqlWwgjKt1seRkssw&usqp=CAU') ;
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+button
+{
+    padding: 10px 20px;
+    
+}
+button:hover
+{
+    color: white;
+    background-color: black;
+    border: 2px solid red;
+    border-radius: 10px;
+    transition: 0.6s;
+}
